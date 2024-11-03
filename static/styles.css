@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #1E1E1E;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h1 {
+    text-align: center;
+    color: #BB86FC;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #E0E0E0;
+}
+
+.form-group input, .form-group textarea, .form-group button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #2D2D2D;
+    color: #E0E0E0;
+}
+
+.form-group button {
+    background-color: #BB86FC;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.form-group button:hover {
+    background-color: #9A67EA;
+}
+
+.result h2 {
+    text-align: center;
+    color: #03DAC6;
+    margin-top: 20px;
+}
+
+.result .scores {
+    list-style: none;
+    padding: 0;
+}
+
+.result .scores li {
+    background-color: #2D2D2D;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.result .scores li ul {
+    margin-top: 10px;
+}
+
+.result .scores li ul li {
+    background-color: #1E1E1E;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: 1px solid #333333;
+}
